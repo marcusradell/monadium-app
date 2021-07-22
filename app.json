@@ -2,7 +2,7 @@
   "expo": {
     "name": "monadium-app",
     "slug": "monadium-app",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
@@ -15,11 +15,13 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "org.monadium.app",
-      "buildNumber": "0.0.0"
+      "buildNumber": "1.0.1"
     },
     "android": {
       "adaptiveIcon": {
@@ -27,7 +29,7 @@
         "backgroundColor": "#ffffff"
       },
       "package": "org.monadium.app",
-      "versionCode": 0
+      "versionCode": 420010001
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
