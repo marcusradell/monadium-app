@@ -15,19 +15,19 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "org.monadium.app"
+      "bundleIdentifier": "org.monadium.app",
+      "buildNumber": "0.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "org.monadium.app"
+      "package": "org.monadium.app",
+      "versionCode": 0
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
